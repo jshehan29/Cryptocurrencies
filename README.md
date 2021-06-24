@@ -1,1 +1,3 @@
-# Cryptocurrencies
+# Cryptocurrency Analysis
+
+This project utilized principal component analysis (PCA) and K-means clustering to provide cryptocurrency investment guidance to Accountability Accounting. A dataset containing cryptocurrency information was imported to Jupyter Notebook and preprocessed to find tradable cryptocurrencies that could be grouped into different classes. To speed up the clustering algorithm, PCA was used to reduce the data to three principal components. From there, K-means clustering was utilized to group the cryptocurrencies into four classes. An elbow curve plotting intertia vs. k was used to determine that four clusters were sufficient to categorize the data. A table along with two-dimensional and three-dimensional scatter plots were created to view the cryptocurrency classification results.
